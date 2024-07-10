@@ -1,4 +1,2 @@
 build:
-  - echo "Starting build process..."
-  - ./gradlew build
-  - echo "Build completed."
+  - ./mvnw clean package
