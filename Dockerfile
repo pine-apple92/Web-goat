@@ -6,6 +6,7 @@ RUN \
   useradd -ms /bin/bash webgoat && \
   chgrp -R 0 /home/webgoat && \
   chmod -R g=u /home/webgoat
+RUN ls -al
 
 USER webgoat
 
